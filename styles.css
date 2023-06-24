@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+li{
+    display: inline-block;
+    margin-right: 32px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    height: 10vh;
+    align-items: center;
+    color: gray;
+    padding: 52px;
+    cursor: pointer;
+}
+.left{
+    display: flex;
+    width: 50vw;
+}
+.right{
+    display: flex;
+    margin-left: 89px;
+
+}
+.avatar{
+    height: 42px;
+}
+.cart{
+    height: 15px;
+    margin-bottom: 6px;
+}
+.line{
+    border: 1px grey solid;
+    border-style: solid;
+    width: 73%;
+    margin-left: 12%;
+    margin-top: 2%;
+    border-top: none;
+}
+
+.mainpic{
+    height: 358px;
+    border-radius: 10px;
+}
+.content{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5%;
+    padding: 5% 20%;
+    flex-wrap: wrap;
+ 
+}
+.leftcon{
+    margin-right: 16%;
+}
+.rightcon{
+    height: 76vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+}
+.rightcon h1,.name{
+    line-height: 40px;
+}
+.name{
+    color: orange;
+}
+.rightcon p{
+    margin-top: 34px;
+    line-height: 23px;
+    color: gray;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    cursor: pointer;
+}
+.chose img{
+    height: 72px;
+    border-radius: 10px;
+}
+.cost{
+    margin-top: 10px;
+}
+.prise{
+font-weight: bolder;
+font-size: xx-large;
+font-family:Arial, Helvetica, sans-serif;
+}
+.dis{
+    margin-left: 10px;
+    background-color:rgba(253, 231, 189, 0.975);
+    border-radius: 3px;
+    color:orange;
+padding: 0px 3px;}
+.slash{
+    margin-top: 5px;
+    text-decoration: line-through;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btns{
+    height: 40px;
+    margin-top: 10px;
+}
+#bt1{
+    width: 124px;
+    height: 31px;
+    background-color: #80808045;
+    border-style: none;
+    border-radius: 3px;
+}
+#bt2{
+    width: 186px;
+    height: 31px;
+    background-color: orange;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.plus{
+    margin: 0px 16px;
+}
+.optionj{
+    filter:opacity(60%);
+    border: 1px solid orange;
+}
+@media (max-width:457px){
+    .content{
+        padding: 5% 47%;
+    }
+}
+.plus,.minus{
+cursor: pointer;
+}
+.it{
+    display: inline-block;
+}
+.minus{
+    padding: 2px 12px;
+}
+.purchasenum{
+    background-color: orange;
+    height: 13px;
+    width: 13px;
+    display: none;
+    position: relative;
+    left: -5px;
+    top: -18px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
